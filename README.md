@@ -16,13 +16,15 @@ Para ello, vas a definir un proyecto y a asignarle un nombre representativo como
 
 - El proyecto deberá cumplir con las tres secciones descritas en el apartado de ejercicios; dos comunes y una tercera de tu elección. 
 
+- La aplicación será multipágina. Cuando sea necesario conservar información entre páginas, como el elemento seleccionado por el usuario, utiliza Web Storage.
+
 - La aplicación deberá respetar la arquitectura estudiada en el módulo.
 
 - La aplicación puede ser desarrollada utilizando las gestión de eventos nativa del DOM, jQuery o ambas tecnologías.
 
 ## 🎯 Objetivos de aprendizaje
 
-- _Realizar un frontend funcional utilizando JS nativo._
+- _Desarrollar un frontend utilizando JavaScript nativo, jQuery o una combinación de ambas tecnologías_
 - _Consumir recursos de una API Rest._
 - *Integrar en un proyecto los conocimientos sobre gestión de eventos y consultas HTTP estudiados hasta el momento.*
 
@@ -44,7 +46,7 @@ La combinación de varias APIs también está permitida.
 
 ## 🛠️ Ejercicios
 
-La aplicación web constará de las siguientes tres páginas:
+La aplicación web constará de dos interfaces principales y una funcionalidad adicional:
 
 - Resumen
 
@@ -58,9 +60,12 @@ La aplicación web constará de las siguientes tres páginas:
 
 - **Requisitos**:
   
-  - Mostrar un **ranking o lista inicial**.
+  - Mostrar un listado, catálogo o ranking de elementos obtenidos de la API..
   
-  - Incluir indicadores clave o [KPIs](https://es.wikipedia.org/wiki/Indicador_clave_de_rendimiento)  relacionados con cada item del ranking.
+  - Mostrar, para cada elemento, algunos de los datos o indicadores más relevantes obtenidos de la API, como [KPIs](https://es.wikipedia.org/wiki/Indicador_clave_de_rendimiento)
+
+> [NOTE!]
+> Al seleccionar uno de los elementos del listado, guarda la información necesaria para identificarlo y redirige a la página de *Visualización de Datos*.
 
 #### Ejercicio 2: Visualización de Datos
 
@@ -76,7 +81,11 @@ La aplicación web constará de las siguientes tres páginas:
   
   - Otro de tu elección.
 
-⚠️ ***Importante***: *Es requisito que el elemento sea interactivo. En la aplicación de ejemplo te muestro cómo puedes: posicionarte sobre el gráfico ver información del activo, filtrar en función a la temporalidad etc.*
+> [NOTE!]
+> 
+> El elemento deberá reaccionar a la interacción del usuario, permitiendo acciones como consultar información adicional, filtrar, ordenar, seleccionar datos, modificar el periodo mostrado o interactuar con sus elementos.
+> 
+> En la aplicación de ejemplo te muestro cómo puedes: posicionarte sobre el gráfico ver información del activo, filtrar en función a la temporalidad etc.
 
 #### Ejercicio 3: Funcionalidad Extra
 
