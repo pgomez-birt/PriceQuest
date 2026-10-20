@@ -22,6 +22,8 @@ Para ello, vas a definir un proyecto y a asignarle un nombre representativo como
 
 - La aplicación puede ser desarrollada utilizando las gestión de eventos nativa del DOM, jQuery o ambas tecnologías.
 
+- **Gestión de peticiones:** mientras se realiza una petición a la API, muestra al usuario un indicador de carga. Si la petición falla, informa del error en la interfaz y evita que la aplicación quede en un estado inconsistente.
+
 ## 🎯 Objetivos de aprendizaje
 
 - _Desarrollar un frontend utilizando JavaScript nativo, jQuery o una combinación de ambas tecnologías_
@@ -40,7 +42,11 @@ Para facilitarte el trabajo de selección de temática, en los recursos te facil
 
 Por un lado,  tienes un listado de APIs con información de acceso libre que puedes utilizar. Por otro lado, si ninguna fuente de datos te sirve, puedes crear tu propia API de manera fácil y sencilla en alguna de las plataformas propuestas. Para acabar, si lo  necesitas, te facilito un recurso para crear datos sintéticos en formato JSON.
 
-Además, si lo prefieres, puedes utilizar otra API de tu eleccion que no figure entre los recursos facilitados.
+Además, si lo prefieres, puedes utilizar otra API de tu elección que no figure entre los recursos facilitados. En ese caso, antes de comenzar el desarrollo, comprueba que puedes acceder a sus datos, que dispones de los permisos o credenciales necesarios y que ofrece la información suficiente para cumplir los requisitos de la tarea.
+
+> [!TIP]
+> 
+> Utiliza Postman para comprobar los endpoints de la API que vas a utilizar, los datos que devuelve y los parámetros o métodos HTTP necesarios.
 
 La combinación de varias APIs también está permitida.
 
@@ -89,14 +95,12 @@ La aplicación web constará de dos interfaces principales y una funcionalidad a
 
 #### Ejercicio 3: Funcionalidad Extra
 
-- **Objetivo**: Incorporar **almenos un elemento** adicional que enriquezca la experiencia del usuario.
-
-- **Algunas opciones**:
+- **Objetivo**: Iincorporar una funcionalidad adicional que permita al usuario interactuar con los datos de la aplicación.
   
-  - **Filtros:** Permitir al usuario seleccionar filtras segun valores predeterminador.
+  Implementa **una de las siguientes opciones**:
   
-  - **Favoritos:** Permite al usuario marcar un elemenot como favorito para filtrarlo y visualizarlo en una lista. 
+  - **Filtros o búsqueda:** Permite filtrar los elementos mostrados utilizando al menos dos criterios relacionados con los datos de la API. Los resultados deberán actualizarse en función de las opciones seleccionadas por el usuario..
   
-  - **Barra superior** con elementos relacionados de interes
+  - **Favoritos:** Permite marcar y desmarcar elementos como favoritos y conservar esta selección mediante Web Storage. El usuario deberá poder consultar posteriormente los elementos guardados.
   
-  - Otro de tu elección
+  - **Comparador:** Permite seleccionar al menos dos elementos y mostrar una comparación de varios de sus datos relevantes mediante una tabla u otra representación adecuada.
