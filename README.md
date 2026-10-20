@@ -83,8 +83,6 @@ La aplicación web constará de dos interfaces principales y una funcionalidad a
   
   - **Tabla comparativa**.
   
-  - **Mapa**
-  
   - Otro de tu elección.
 
 > [NOTE!]
@@ -96,11 +94,9 @@ La aplicación web constará de dos interfaces principales y una funcionalidad a
 #### Ejercicio 3: Funcionalidad Extra
 
 - **Objetivo**: Iincorporar una funcionalidad adicional que permita al usuario interactuar con los datos de la aplicación.
-  
-  Implementa **una de las siguientes opciones**:
-  
-  - **Filtros o búsqueda:** Permite filtrar los elementos mostrados utilizando al menos dos criterios relacionados con los datos de la API. Los resultados deberán actualizarse en función de las opciones seleccionadas por el usuario..
-  
-  - **Favoritos:** Permite marcar y desmarcar elementos como favoritos y conservar esta selección mediante Web Storage. El usuario deberá poder consultar posteriormente los elementos guardados.
-  
-  - **Comparador:** Permite seleccionar al menos dos elementos y mostrar una comparación de varios de sus datos relevantes mediante una tabla u otra representación adecuada.
+
+Implementa **una de las siguientes opciones**:
+
+- **Filtros o búsqueda:** Permite filtrar los elementos mostrados utilizando al menos dos criterios relacionados con los datos de la API. Los resultados deberán actualizarse en función de las opciones seleccionadas por el usuario..
+
+- **Favoritos:** Permite marcar y desmarcar elementos como favoritos y conservar esta selección mediante Web Storage. El usuario deberá poder consultar posteriormente los elementos guardados.
