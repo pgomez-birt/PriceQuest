@@ -20,7 +20,7 @@ Puedes abrir los archivos directamente en el navegador para ver cómo podrían p
 
 ## 🔌 APIs disponibles
 
-Consulta la [lista de APIs](./) que he recopilado para ayudarte a elegir la temática del proyecto y realizar pruebas con diferentes fuentes de datos.
+Consulta la [lista de APIs](./2-lista-apis.md) que he recopilado para ayudarte a elegir la temática del proyecto y realizar pruebas con diferentes fuentes de datos.
 
 Antes de comenzar el desarrollo, comprueba que la API seleccionada:
 
