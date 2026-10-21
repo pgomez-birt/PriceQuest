@@ -6,10 +6,14 @@ Las ejemplos se corresponden con las interfaces de la aplicación de ejemplo **B
 
 #### Ejemplos
 
-- [Resumen](./1_resumen.html)
-- Visualización de Datos:
-  - dd
-  - dd
-- Funcionalidad Extra:
-  - aaa
-  - bbb
+[1.- Resumen](./1_resumen.html)
+
+2.- Visualización de Datos:
+
+- [Gráfico](2_visualizacion_datos_grafico.html)
+- [Tabla Comparativa](2_visualizacion_datos_tabla_comparativa.html)
+
+3.- Funcionalidad Extra:
+
+- [Favoritos](3_funcionalidad_extra_favoritos.html)
+- [Filtros de Búsqueda](3_funcionalidad_extra_filtros_busqueda.html)
