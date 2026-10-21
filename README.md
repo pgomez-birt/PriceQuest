@@ -4,106 +4,99 @@
 
 Ponte en el papel de un programador freelance que ha identificado un nicho de mercado con potencial y decide diseñar una aplicación web que ofrece información para ese sector.
 
-Para ello, vas definirás un proyecto que **utilizará una API como fuente de datos**. 
+Para ello, vas a definir un proyecto que **utilizará una API como fuente de datos**.
 
-##### Requisitos
+### Requisitos generales
 
 - La aplicación tendrá **libertad temática**, de manera que puedes elegir el proyecto que quieras desarrollar.
 
-- **Asígnale un nombre representativo**. Ejemplos:
+- **Asigna un nombre representativo** a tu proyecto. Por ejemplo:
   
-  - *<u>ExploraFauna</u>*: portal dedicado a catalogar y clasificar animales de África. Dirigido a investigadores y amantes de la naturaleza.
-  
-  - *<u>BolsaSmart</u>*: herramienta interactiva para visualizar información detallada sobre activos financieros. Diseñada para pequeños inversores interesados en tomar decisiones informadas.
+  - **ExploraFauna**: portal dedicado a catalogar y clasificar animales de África, dirigido a investigadores y amantes de la naturaleza.
+  - **BolsaSmart**: herramienta interactiva para visualizar información detallada sobre activos financieros, dirigida a pequeños inversores interesados en tomar decisiones informadas.
 
-- El proyecto deberá **cumplir con las tres secciones** descritas en el apartado de ejercicios; dos comunes y una tercera de tu elección. 
+- El proyecto deberá **cumplir con las tres secciones** descritas en el apartado de ejercicios
 
-- La **aplicación será multipágina**. Cuando sea necesario conservar información entre páginas utiliza el `Web Storage`.
+- La **aplicación será multipágina**. Cuando necesites conservar información entre páginas, utiliza `Web Storage`.
 
-- La aplicación deberá **respetar la arquitectura estudiada** en UDs anteriores.
+- La aplicación deberá **respetar la arquitectura estudiada** en unidades anteriores.
 
-- La aplicación puede ser desarrollada utilizando las gestión de eventos nativa de JavaScript, la de jQuery o ambas tecnologías.
+- Puedes desarrollar la aplicación utilizando la gestión de eventos nativa de **JavaScript**, la de **jQuery** o una combinación de ambas tecnologías.
+
+- Mientras se realiza una consulta a la API, muestra un **indicador de carga**. Si la petición falla, informa del error en la interfaz y evita que la aplicación quede en un estado inconsistente.
 
 ## 🎯 Objetivos de aprendizaje
 
-- _Desarrollar un frontend utilizando tecnología JavaScript_
-- _Consumir recursos de una API Rest._
-- *Integrar en un proyecto los conocimientos sobre gestión de eventos y consultas HTTP estudiados hasta el momento.*
+- Desarrollar un frontend utilizando JavaScript.
+- Consumir recursos de una **API REST**.
+- Integrar en un mismo proyecto los conocimientos sobre **gestión de eventos** y **consultas HTTP** estudiados hasta el momento.
 
 ## 📚 Recursos
 
-##### Ejemplos
+### Ejemplos
 
-En el apartado de recursos tienes los siguientes ejemplos:
+En el apartado de recursos encontrarás los siguientes materiales:
 
-- [Documento](./recursos/1-ejemplo-aplicacion-real.md) explicando los tipos de interfaces sobre una aplicación web real.
-
-- [Directorio](./recursos/interfaces) con ejemplos de las distintas interfaces en formato `.html`
-
-> [!TIP]
-> 
-> Ejecuta los ficheros `.html` haciendo doble click o arrastrandolos en una ventana de navegador para que puedas probar las interfaces de ejemplo.
-
-##### Listado de APIs
-
-Para facilitarte el trabajo de selección de temática, en los recursos te facilito un [documento ](./recursos/2-lista-apis.md)con una lista de APIs.
-
-- Si ninguna fuente de datos se adapta a tu proyecto, puedes crear tu propia API con recursos como: [*Supabase*](https://supabase.com/) o [*Mockon*](https://mockoon.com/). 
-
-- Si necesitas crear datos sintéticos en formato JSON puedes utilizar [esta](https://devpefer.com/tools) herramienta.
-
-- Si prefieres utiliza otra API de tu elección. 
+- Un [documento](./recursos/1-ejemplo-aplicacion-real.md) en el que se explican distintos tipos de interfaces a partir de una aplicación web real.
+- Un [directorio](./recursos/interfaces) con ejemplos de las distintas interfaces en formato `.html`.
 
 > [!TIP]
 > 
-> Utiliza Postman para comprobar los endpoints de la API que vas a utilizar, los datos que devuelve y los parámetros o métodos HTTP necesarios.
+> Puedes ejecutar los archivos `.html` haciendo doble clic sobre ellos o arrastrándolos a una ventana del navegador para probar las interfaces de ejemplo.
+
+### Listado de APIs
+
+Para facilitarte la elección de temática, en los recursos tienes un [documento](./recursos/2-lista-apis.md) con una selección de APIs que puedes utilizar.
+
+- Si ninguna fuente de datos se adapta a tu proyecto, puedes crear tu propia API utilizando recursos como [Supabase](https://supabase.com/) o [Mockoon](https://mockoon.com/).
+- Si necesitas generar datos sintéticos en formato JSON, puedes utilizar [esta herramienta](https://devpefer.com/tools).
+- Si lo prefieres, puedes utilizar otra API de tu elección.
+
+> [!TIP]
+> 
+> Utiliza **Postman** para comprobar los endpoints de la API que vas a utilizar, los datos que devuelve y los parámetros o métodos HTTP necesarios antes de integrarla en tu aplicación.
 
 ## 🛠️ Ejercicios
 
-La aplicación web constará de **dos interfaces principales y una funcionalidad adicional** organizadas de la siguiente manera:
+La aplicación web constará de **tres interfaces principales** organizadas de la siguiente manera.
 
-#### Ejercicio 1: Resumen
+### Ejercicio 1: Resumen
 
-- **Objetivo**: Actuar como **página principal** ofreciendo una lista de elementos con información organizada de manera clara.
+**Objetivo:** actuar como **página principal** de la aplicación, mostrando una colección de elementos con información organizada de manera clara.
 
-- **Requisitos**:
-  
-  - Mostrar un listado, catálogo o ranking de elementos.
-  
-  - Para cada elemento mostrar datos clave o [KPIs](https://es.wikipedia.org/wiki/Indicador_clave_de_rendimiento).
-  
-  - Mientras se realiza una consulta a la API, muestra un indicador de carga. Si la petición falla, informa del error en la interfaz y evita que la aplicación quede en un estado inconsistente.
+**Requisitos:**
 
-#### Ejercicio 2: Visualización de Datos
+- Mostrar un **listado, catálogo o ranking** de elementos.
+- Mostrar para cada elemento algunos **datos clave o indicadores relevantes [(KPIs)](https://es.wikipedia.org/wiki/Indicador_clave_de_rendimiento)**
 
-- **Objetivo**: Explorar o ampliar la información de un elemento seleccionado en el *Resumen*. 
+### Ejercicio 2: Visualización de Datos
 
-- **Requisitos**: Mostrar un **elemento interactivo** a elegir entre:
-  
-  - Gráfico.
-  
-  - Tabla comparativa.
+**Objetivo:** explorar o ampliar la información de un elemento seleccionado previamente en la interfaz de *Resumen*.
+
+**Requisitos:** mostrar un **elemento interactivo**. Puedes elegir entre:
+
+- **Gráfico**.
+- **Tabla comparativa**.
 
 > [!NOTE]
 > 
-> El elemento deberá reaccionar a la interacción del usuario, permitiendo acciones consultar información adicional, filtrar, ordenar o seleccionar datos.
+> El elemento deberá reaccionar a la interacción del usuario y permitir acciones como consultar información adicional, filtrar, ordenar o seleccionar datos.
 > 
-> En la aplicación de ejemplo te muestro cómo puedes: posicionarte sobre el gráfico ver información del activo, filtrar en función a la temporalidad etc.
+> En las interfaces de ejemplo puedes ver distintas posibilidades, como consultar información al posicionarte sobre un gráfico o modificar el periodo temporal mostrado.
 
-#### Ejercicio 3: Funcionalidad Extra
+### Ejercicio 3: Funcionalidad Adicional
 
-- **Objetivo**: Incorporar una funcionalidad adicional.
+**Objetivo:** incorporar una funcionalidad adicional que permita al usuario interactuar con la aplicación.
 
 Implementa **una de las siguientes opciones**:
 
-- **Filtros o búsqueda:** Permite filtrar los elementos mostrados utilizando al menos dos criterios relacionados con los datos de la API. Los resultados deberán actualizarse en función de las opciones seleccionadas por el usuario..
+- **Favoritos:** permite marcar y desmarcar elementos como favoritos y conservar esta selección. El usuario deberá poder consultar posteriormente los elementos guardados.
+- **Filtros o búsqueda:** permite filtrar los elementos mostrados utilizando al menos **dos criterios** relacionados con los datos de la API. Los resultados deberán actualizarse en función de las opciones seleccionadas por el usuario.
 
-- **Favoritos:** Permite marcar y desmarcar elementos como favoritos y conservar esta selección mediante Web Storage. El usuario deberá poder consultar posteriormente los elementos guardados.
-
---- 
+---
 
 > [!IMPORTANT]
 > 
-> Tanto en el ejercicio 2 como en el ejercicio 3 puedes programar una funcionalidad diferente a las que te propongo si esta que se adapta mejor a la temática de tu aplicación.
+> Tanto en el **Ejercicio 2** como en el **Ejercicio 3** puedes implementar una funcionalidad diferente a las propuestas si se adapta mejor a la temática de tu aplicación.
 > 
-> Consúltame por correo electrónico para que te de el visto bueno.
+> En ese caso, consúltame previamente por correo electrónico para que pueda darte el visto bueno.
