@@ -32,9 +32,17 @@ Para ello, vas definirás un proyecto que **utilizará una API como fuente de da
 
 ## 📚 Recursos
 
-##### Ejemplo
+##### Ejemplos
 
-En el apartado de recursos tienes un [documento ](./recursos/1-ejemplo-aplicacion.md)con una web de ejemplo explicando paso a paso todas las interfaces.
+En el apartado de recursos tienes los siguientes ejemplos:
+
+- [Documento](./recursos/1-ejemplo-aplicacion-real.md) explicando los tipos de interfaces sobre una aplicación web real.
+
+- [Directorio](./recursos/interfaces) con ejemplos de las distintas interfaces en formato `.html`
+
+> [!TIP]
+> 
+> Ejecuta los ficheros `.html` haciendo doble click o arrastrandolos en una ventana de navegador para que puedas probar las interfaces de ejemplo.
 
 ##### Listado de APIs
 
@@ -70,26 +78,32 @@ La aplicación web constará de **dos interfaces principales y una funcionalidad
 
 - **Objetivo**: Explorar o ampliar la información de un elemento seleccionado en el *Resumen*. 
 
-- **Requisitos**: Mostrar al menos un **elemento interactivo** de tipo:
+- **Requisitos**: Mostrar un **elemento interactivo** a elegir entre:
   
   - Gráfico.
   
   - Tabla comparativa.
-  
-  - OTro de tu elección (de dificultad similar)
 
 > [!NOTE]
 > 
-> El elemento deberá reaccionar a la interacción del usuario, permitiendo acciones como consultar información adicional, filtrar, ordenar, seleccionar datos, modificar el periodo mostrado o interactuar con sus elementos.
+> El elemento deberá reaccionar a la interacción del usuario, permitiendo acciones consultar información adicional, filtrar, ordenar o seleccionar datos.
 > 
 > En la aplicación de ejemplo te muestro cómo puedes: posicionarte sobre el gráfico ver información del activo, filtrar en función a la temporalidad etc.
 
 #### Ejercicio 3: Funcionalidad Extra
 
-- **Objetivo**: Iincorporar una funcionalidad adicional que permita al usuario interactuar con los datos de la aplicación.
+- **Objetivo**: Incorporar una funcionalidad adicional.
 
 Implementa **una de las siguientes opciones**:
 
 - **Filtros o búsqueda:** Permite filtrar los elementos mostrados utilizando al menos dos criterios relacionados con los datos de la API. Los resultados deberán actualizarse en función de las opciones seleccionadas por el usuario..
 
 - **Favoritos:** Permite marcar y desmarcar elementos como favoritos y conservar esta selección mediante Web Storage. El usuario deberá poder consultar posteriormente los elementos guardados.
+
+--- 
+
+> [!IMPORTANT]
+> 
+> Tanto en el ejercicio 2 como en el ejercicio 3 puedes programar una funcionalidad diferente a las que te propongo si esta que se adapta mejor a la temática de tu aplicación.
+> 
+> Consúltame por correo electrónico para que te de el visto bueno.
