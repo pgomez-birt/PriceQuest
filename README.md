@@ -68,7 +68,7 @@ La aplicación web constará de **dos interfaces principales y una funcionalidad
 
 #### Ejercicio 2: Visualización de Datos
 
-- **Objetivo**: **Ampliar información sobre un elemento de la lista** cuando se pulsa sobre este. 
+- **Objetivo**: Explorar o ampliar la información de un elemento seleccionado en el *Resumen*. 
 
 - **Requisitos**: Mostrar al menos un **elemento interactivo** de tipo:
   
