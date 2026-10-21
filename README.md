@@ -70,7 +70,7 @@ La aplicación web constará de dos interfaces principales y una funcionalidad a
   
   - Mostrar, para cada elemento, algunos de los datos o indicadores más relevantes obtenidos de la API, como [KPIs](https://es.wikipedia.org/wiki/Indicador_clave_de_rendimiento)
 
-> [NOTE!]
+> [!NOTE]
 > Al seleccionar uno de los elementos del listado, guarda la información necesaria para identificarlo y redirige a la página de *Visualización de Datos*.
 
 #### Ejercicio 2: Visualización de Datos
@@ -85,7 +85,7 @@ La aplicación web constará de dos interfaces principales y una funcionalidad a
   
   - Otro de tu elección.
 
-> [NOTE!]
+> [!NOTE]
 > 
 > El elemento deberá reaccionar a la interacción del usuario, permitiendo acciones como consultar información adicional, filtrar, ordenar, seleccionar datos, modificar el periodo mostrado o interactuar con sus elementos.
 > 
