@@ -11,19 +11,17 @@ Para ello, vas a definir un proyecto que **utilizará una API como fuente de dat
 - La aplicación tendrá **libertad temática**, de manera que puedes elegir el proyecto que quieras desarrollar.
 
 - **Asigna un nombre representativo** a tu proyecto. Por ejemplo:
-  
-  - **ExploraFauna**: portal dedicado a catalogar y clasificar animales de África, dirigido a investigadores y amantes de la naturaleza.
-  - **BolsaSmart**: herramienta interactiva para visualizar información detallada sobre activos financieros, dirigida a pequeños inversores interesados en tomar decisiones informadas.
+
+  - **BolsaSmart**: herramienta interactiva para visualizar información sobre el precio de cotización de empresas, dirigida a pequeños inversores.
+  - **ExploraFauna**: portal dedicado a catalogar y clasificar animales de África, dirigido a amantes de la naturaleza.
 
 - El proyecto deberá **cumplir con las tres secciones** descritas en el apartado de ejercicios
 
-- La **aplicación será multipágina**. Cuando necesites conservar información entre páginas, utiliza `Web Storage`.
+- La **aplicación será multipágina**.
 
 - La aplicación deberá **respetar la arquitectura estudiada** en unidades anteriores.
 
 - Puedes desarrollar la aplicación utilizando la gestión de eventos nativa de **JavaScript**, la de **jQuery** o una combinación de ambas tecnologías.
-
-- Mientras se realiza una consulta a la API, muestra un **indicador de carga**. Si la petición falla, informa del error en la interfaz y evita que la aplicación quede en un estado inconsistente.
 
 ## 🎯 Objetivos de aprendizaje
 
@@ -37,32 +35,35 @@ Para ello, vas a definir un proyecto que **utilizará una API como fuente de dat
 
 En el apartado de recursos encontrarás los siguientes materiales:
 
-- Un [documento](./recursos/1-ejemplo-aplicacion-real.md) en el que se explican distintos tipos de interfaces a partir de una aplicación web real.
-- Un [directorio](./recursos/interfaces) con ejemplos de las distintas interfaces en formato `.html`.
+- Un [directorio](./recursos/interfaces) con ejemplos de interfaces en formato `.html` para el proyecto *BolsaSmart* descrito en la introducción de este documento.
+- Un [documento](./recursos/1-ejemplo-aplicacion-real.md) en el que se explican los tipos de interfaces a partir de la aplicación web [*CoinStats*](https://coinstats.app/es/coins/).
 
 > [!TIP]
-> 
+>
 > Puedes ejecutar los archivos `.html` haciendo doble clic sobre ellos o arrastrándolos a una ventana del navegador para probar las interfaces de ejemplo.
 
 ### Listado de APIs
 
-Para facilitarte la elección de temática, en los recursos tienes un [documento](./recursos/2-lista-apis.md) con una selección de APIs que puedes utilizar.
+Para facilitarte la elección de temática: 
 
-- Si ninguna fuente de datos se adapta a tu proyecto, puedes crear tu propia API utilizando recursos como [Supabase](https://supabase.com/) o [Mockoon](https://mockoon.com/).
-- Si necesitas generar datos sintéticos en formato JSON, puedes utilizar [esta herramienta](https://devpefer.com/tools).
+- En el apartado el directorio de recursos dispones de un [documento](./recursos/2-lista-apis.md) con una selección de APIs que puedes utilizar.
+
+- En los recursos en formato vídeo de la UD tienes un ejemplo de cómo utilizar [Supabase](https://supabase.com/), la herramienta de creación de APIs *no-code.*  
 - Si lo prefieres, puedes utilizar otra API de tu elección.
 
 > [!TIP]
-> 
-> Utiliza **Postman** para comprobar los endpoints de la API que vas a utilizar, los datos que devuelve y los parámetros o métodos HTTP necesarios antes de integrarla en tu aplicación.
+>
+> Una vez seleccionada la API que utilizarás en el proyecto, ejecuta **Postman** para comprobar que los endpoints responden correctamente y puedas revisar los formatos en que se devuelven los datos.
+>
+> Para este apartado te recomiendo revisar el vídeo referentes a [*CORS*](https://developer.mozilla.org/es/docs/Web/HTTP/Guides/CORS).
 
 ## 🛠️ Ejercicios
 
-La aplicación web constará de **tres interfaces principales** organizadas de la siguiente manera.
+La aplicación web constará de **tres interfaces/vistas** organizadas de la siguiente manera.
 
 ### Ejercicio 1: Resumen
 
-**Objetivo:** actuar como **página principal** de la aplicación, mostrando una colección de elementos con información organizada de manera clara.
+**Objetivo:** actuar como **página principal** de la aplicación, mostrando una colección de elementos con información organizada de manera clara. [Ejemplo](./recursos/interfaces/1_resumen.html)
 
 **Requisitos:**
 
@@ -79,9 +80,9 @@ La aplicación web constará de **tres interfaces principales** organizadas de l
 - **Tabla comparativa**.
 
 > [!NOTE]
-> 
+>
 > El elemento deberá reaccionar a la interacción del usuario y permitir acciones como consultar información adicional, filtrar, ordenar o seleccionar datos.
-> 
+>
 > En las interfaces de ejemplo puedes ver distintas posibilidades, como consultar información al posicionarte sobre un gráfico o modificar el periodo temporal mostrado.
 
 ### Ejercicio 3: Funcionalidad Adicional
@@ -96,7 +97,7 @@ Implementa **una de las siguientes opciones**:
 ---
 
 > [!IMPORTANT]
-> 
+>
 > Tanto en el **Ejercicio 2** como en el **Ejercicio 3** puedes implementar una funcionalidad diferente a las propuestas si se adapta mejor a la temática de tu aplicación.
-> 
+>
 > En ese caso, consúltame previamente por correo electrónico para que pueda darte el visto bueno.
