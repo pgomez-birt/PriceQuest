@@ -18,7 +18,7 @@ La página de *[Resumen](https://coinstats.app/es/coins/)* actuará como punto d
 
 - <u>Ranking inicial</u>: lista de criptomonedas principales, ordenadas por capitalización de mercado.
 
-- <u>Indicadores</u>: precio actual, variación porcentual del precio para diferentes [*timeframes*](https://vantofx.com/es/academy/what-is-timeframe-in-trading/), acceso al gráfico de precios etc.
+- <u>Indicadores</u>: precio actual, variación porcentual del precio para diferentes [*timeframes*](https://tellidex.io/trading-timeframes-explained-choosing-the-right-perspective/), acceso al gráfico de precios etc.
 
 <img src="./imagenes/1-resumen.png" title="" alt="Resumen" data-align="center">
 
@@ -34,18 +34,16 @@ La página de *[Visualización de Datos](https://coinstats.app/es/coins/bitcoin/
 
 - <u>Timeframe</u>: en la barra de la parte superior derecha seleccionando una de las opciones el gráfico se actualiza.
 
-- <u>Información de Precio</u>: colocando el puntero sobre el gráfico muestra información de precio, *timestamp* etc. para ese momento concreto. 
+- <u>Información de Precio</u>: colocando el puntero sobre el gráfico muestra información de precio, *timestamp* etc. para ese momento concreto.
 
 <img title="" src="./imagenes/2-grafico.png" alt="Resumen" width="476" data-align="center"><img title="" src="./imagenes/2-grafico2.png" alt="Resumen" width="474" data-align="center">
 
 ---
 
-#### 3. Funcionalidad Extra
+#### 3. Funcionalidad Adiconal
 
 En este apartado te muestro algunos ejemplos de funcionalidad extra para que puedas tener como referencia. Te dejo algunos ejemplos que puedes consultar en la página analizada 
 
 - <u>Favoritos</u>: en el ranking, pulsando la estrella de la parte izquierda se asigna el activo a favoritos y lo muestra en una [lista.](https://coinstats.app/es/favorites/)
 
-- <u>Barra superior:</u> en la parte superior del gráfico, se incluyen diferentes categorías con información relevante como [noticias relacionadas.](https://coinstats.app/es/coins/bitcoin/news/)
-
-- <u>Filtro de Ordenación</u>: en el ranking de activos, al clicar sobre alguno de los elementos: *#, Nombre, Precio,* ordena la lista en función a ese criterio. 
+- <u>Filtro de Ordenación</u>: en el ranking de activos, al clicar sobre alguno de los elementos: *#, Nombre, Precio,* ordena la lista en función a ese criterio.

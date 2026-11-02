@@ -4,13 +4,17 @@
 
 En este documento encontrarás **tres listas** con APIs que puedes utilizar para coger ideas a la hora de elegir una temática para tu proyecto. Las listas están formadas por tres tipos de API: 
 
-- De Acceso Libre
+- De *Acceso Libre*
 
-- De Organismos Públicos o Insitucionales
+- De *Organismos Públicos* o Insitucionales
 
-- De Desarrollo Propio.
+- De *Desarrollo Propio*.
 
-*⚠️ **Nota Importante**: Cabe la posibilidad de que alguna de las URLs que te facilito NO funcione debido a migraciónes. En caso de detectar alguna, por favor, notifícamelo para que pueda solucionarlo*
+> [!NOTE]
+>
+> Cabe la posibilidad de que alguna de las URLs que te facilito NO funcione debido a migraciónes. En caso de detectar alguna, por favor, notifícamelo para que pueda solucionarlo
+
+---
 
 ## 📋 Listas
 
@@ -18,13 +22,13 @@ En este documento encontrarás **tres listas** con APIs que puedes utilizar para
 
 En este apartado te facilito dos listados con APIs de terceros que ofrecen sus datos de manera abierta para poder realizar proyectos, pruebas etc.. 
 
-Se recomiendo revisar la documentación con detenimiento antes de empezar a programar, ya que el acceso a algunas de las APIs necesitará de autenticación mediante [Tokens]([¿Qué es un token API? 🔑 Guía rápida &#8212; Wallarm](https://lab.wallarm.com/what/que-es-un-token-api-guia-rapida/?lang=es)).
+Se recomiendo revisar la documentación con detenimiento antes de empezar a programar, ya que el acceso a algunas de las APIs necesitará de autenticación mediante [*tokens*](https://globalfishingwatch.org/es/faqs/que-es-un-token-de-acceso-a-la-api/).
 
 - [Listado número 1](https://publicapis.dev/)
 
 - [Listado número 2](https://github.com/public-apis/public-apis)
 
----
+
 
 ### 2. APIs de Organismos Públicos
 
@@ -65,22 +69,12 @@ En este apartado se proporcionan diferentes listas para acceder a los datos que 
 
 - [GBIF API (Global Biodiversity Information Facility)](https://www.gbif.org/developer/summary)
 - [CERN Open Data API](http://opendata.cern.ch/)
-- [OpenStreetMap API](https://wiki.openstreetmap.org/wiki/OpenStreetMap_API) 
+- [OpenStreetMap API](https://wiki.openstreetmap.org/wiki/OpenStreetMap_API)
 
----
+
 
 ### 3. APIs de Desarrollo Propio
 
-En esta sección te facilito varios recursos para que puedas crear tus propias APIs de manera rápida y sencilla.
+En esta sección te facilito varios recursos para que puedas crear tus propias APIs *no-code* de manera rápida y sencilla.
 
-## ⚙️ Recursos para Creación de APIs Propias
-
-- [Beeceptor](https://beeceptor.com/) — Permite crear endpoints mock personalizados para pruebas de API.
-- [JSON Data AI](https://jsondataai.com/) — Genera respuestas JSON realistas para tus proyectos.
-- [Apidog](https://apidog.com/) — Herramienta completa para diseñar, probar y documentar APIs.
-
----
-
-## 4. Generación de Datos Sintéticos
-
-Si necesitas datos para tú API, te recomiendo [Mockaroo](https://mockaroo.com/), un generador de datos sintéticos personalizables en diferentes formatos, principalmente: JSON, CSV y SQL.
+- [Supabase](https://supabase.com/) - Te facilito un vídeo en los recursos de la UD
