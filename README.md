@@ -35,7 +35,7 @@ Para ello, vas a definir un proyecto que **utilizará una API como fuente de dat
 
 En el apartado de recursos encontrarás los siguientes materiales:
 
-- Un [directorio](./recursos/interfaces) con ejemplos de interfaces en formato `.html` para el proyecto *BolsaSmart* descrito en la introducción de este documento.
+- Un [directorio](./recursos/interfaces) con ejemplos de interfaces en formato `.html` para el proyecto *BolsaSmart* descrito en la introducción de este documento. Descárgalas y ejecutalas en el navegador.
 - Un [documento](./recursos/1-ejemplo-aplicacion-real.md) en el que se explican los tipos de interfaces a partir de la aplicación web [*CoinStats*](https://coinstats.app/es/coins/).
 
 > [!TIP]
@@ -63,12 +63,14 @@ La aplicación web constará de **tres interfaces/vistas** organizadas de la sig
 
 ### Ejercicio 1: Resumen
 
-**Objetivo:** actuar como **página principal** de la aplicación, mostrando una colección de elementos con información organizada de manera clara. [Ejemplo](./recursos/interfaces/1_resumen.html)
+**Objetivo:** actuar como **página principal** de la aplicación, mostrando una colección de elementos con información organizada de manera clara. 
 
 **Requisitos:**
 
-- Mostrar un **listado, catálogo o ranking** de elementos.
+- Mostrar un **listado o ranking** de elementos.
 - Mostrar para cada elemento algunos **datos clave o indicadores relevantes [(KPIs)](https://es.wikipedia.org/wiki/Indicador_clave_de_rendimiento)**
+
+[*Ejemplo*.](./recursos/interfaces/1_resumen.html)
 
 ### Ejercicio 2: Visualización de Datos
 
@@ -76,23 +78,29 @@ La aplicación web constará de **tres interfaces/vistas** organizadas de la sig
 
 **Requisitos:** mostrar un **elemento interactivo**. Puedes elegir entre:
 
-- **Gráfico**.
-- **Tabla comparativa**.
+- **Gráfico**. [*Ejemplo*.](./recursos/interfaces/2_visualizacion_datos_grafico.html)
+- **Tabla comparativa**. [*Ejemplo*.](./recursos/interfaces/2_visualizacion_datos_tabla_comparativa.html)
 
 > [!NOTE]
 >
 > El elemento deberá reaccionar a la interacción del usuario y permitir acciones como consultar información adicional, filtrar, ordenar o seleccionar datos.
->
-> En las interfaces de ejemplo puedes ver distintas posibilidades, como consultar información al posicionarte sobre un gráfico o modificar el periodo temporal mostrado.
 
 ### Ejercicio 3: Funcionalidad Adicional
 
-**Objetivo:** incorporar una funcionalidad adicional que permita al usuario interactuar con la aplicación.
+**Objetivo:** incorporar una funcionalidad adicional.
 
 Implementa **una de las siguientes opciones**:
 
-- **Favoritos:** permite marcar y desmarcar elementos como favoritos y conservar esta selección. El usuario deberá poder consultar posteriormente los elementos guardados.
-- **Filtros o búsqueda:** permite filtrar los elementos mostrados utilizando al menos **dos criterios** relacionados con los datos de la API. Los resultados deberán actualizarse en función de las opciones seleccionadas por el usuario.
+- **Favoritos:** permite marcar y desmarcar elementos como favoritos y conservar esta selección. El usuario deberá poder consultar posteriormente los elementos guardados.  [*Ejemplo*.](./recursos/interfaces/3_funcionalidad_extra_favoritos.html)
+- **Filtros o búsqueda:** permite filtrar los elementos mostrados utilizando al menos **dos criterios** relacionados con los datos de la API. Los resultados deberán actualizarse en función de las opciones seleccionadas por el usuario.  [*Ejemplo*.](./recursos/interfaces/3_funcionalidad_extra_filtros_busqueda.html)
+
+---
+
+### Ejercicio Opcional:
+
+- Mientras se realiza una consulta a la interfaz *Resumen* de la API, muestra un **indicador de carga** en formato *spinner*, *progress bar* o similar . 
+
+- Si la consulta falla, **informa del error en la interfaz** y evita que la aplicación quede en un estado inconsistente.
 
 ---
 
@@ -101,3 +109,5 @@ Implementa **una de las siguientes opciones**:
 > Tanto en el **Ejercicio 2** como en el **Ejercicio 3** puedes implementar una funcionalidad diferente a las propuestas si se adapta mejor a la temática de tu aplicación.
 >
 > En ese caso, consúltame previamente por correo electrónico para que pueda darte el visto bueno.
+
+### 
